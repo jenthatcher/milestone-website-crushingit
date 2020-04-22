@@ -57,8 +57,7 @@ header {
     color: white;
     height: 50px;
     width: 1400px;
-    float: left;
-    
+     
 
 }
 
@@ -113,3 +112,56 @@ header {
 #bottom-section h2 span {
     color: #fa0075;
 }
+
+/*****WORK*****/
+
+#work {
+    background-color: #ffffff;
+    padding-top: 0px;
+}
+
+#work .full-width {
+    clear: both;
+    height: 1450px;  
+    width: 1200px;
+    }
+
+#work h2 {
+    color: #095156;
+    font-size: 36px;
+    font-family: 'roboto slab bold', sans-serif;
+    padding: 30px 0 30px 0;
+    text-align: center;    
+}
+
+#work .half-width {
+        background-color: white;
+        height: 400px;
+        padding-bottom: 40px;
+        width: 600px;
+        }
+
+#work .half-width img {
+    padding: 50px 50px 50px 100px;
+    width: 500px;
+}
+
+
+#work .half-width h3 {
+    color: #087e8b;
+    float: left;
+    font-family: 'roboto bold', sans-serif;
+    font-size: 24px;
+    margin-bottom: -15px;
+    padding: 22px 50px 0px 50px;
+    width: 500px;
+}
+
+#work p {
+    color: #087e8b;
+    float: left;font-family: 'roboto regular', sans-serif;
+    font-size: 20px;
+    padding: 0px 50px 50px 50px;
+    width: 500px;
+    
+  }
