@@ -1,0 +1,115 @@
+/*****BASESTYLES*****/
+
+body {
+    font-family: 'Montserrat', sans-serif, 'Source Code Pro', monospace;
+}
+
+header {
+    height: 800px;
+    width: 1400px;
+}
+
+#work {
+    height: 1550px;
+    width: 1400px;
+}
+
+#about {
+    height: 550px;
+}
+
+#contact {
+    height: 400px;
+}
+
+/*****CONTAINER*****/
+
+.container  {
+    height: 3300px;
+    width: 1400px;
+}
+
+.full-width {
+    width: 1400px;
+}
+
+.half-width {
+    width: 700px;
+    float: left;
+}
+
+.third-width {
+    width: 466px;
+    float: left;
+}
+
+/*****HEADER*****/
+
+header {
+    background-image: url(../img/hero-background.png);
+    background-size: cover;
+    height: 800px;
+    margin: 0 auto;
+}
+
+#top-section {
+    background-color: black;
+    color: white;
+    height: 50px;
+    width: 1400px;
+    float: left;
+    
+
+}
+
+#top-section .full-width {
+    width: 1400px;
+}
+
+#top-section .half-width {
+    width: 700px;
+    height: 50px;
+}
+ .half-width h1 {
+    font-family: 'montserrat regular', sans-serif;
+    font-size: 30pt;
+    margin: 0 auto;
+}
+
+.half-width nav {
+    float: right;
+    margin: 0 auto;
+
+    
+}
+
+.half-width nav ul li{
+    display: inline-block;
+}
+
+.half-width nav ul li a {
+    color: #ffffff;
+    font-size: 30pt;
+    font-style: 'montserrat regular', sans-serif;
+    list-style-type: none;
+    margin: 0 auto;
+    padding-right: 45px;
+    text-decoration: none; 
+
+}
+
+.half-width nav ul li a:hover {
+    border-radius: 5px;
+    color: #fa0075;
+}
+
+#bottom-section h2 {
+    color: #ffffff;
+    font-family: 'source code pro semibold', monospace;
+    font-size: 72pt;
+    text-align: left;
+}
+
+#bottom-section h2 span {
+    color: #fa0075;
+}
