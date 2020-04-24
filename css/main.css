@@ -1,17 +1,18 @@
 /*****BASESTYLES*****/
 
 body {
-    font-family: 'Montserrat', sans-serif, 'Source Code Pro', monospace;
+    font-family: 'Montserrat Regular', 'Montserrat Bold' 'Source Sans Pro Semibold' sans-serif, monospace;
+    margin: 0 auto;
 }
 
 header {
     height: 800px;
-    width: 1400px;
+   
 }
 
 #work {
     height: 1550px;
-    width: 1400px;
+    
 }
 
 #about {
@@ -27,19 +28,20 @@ header {
 .container  {
     height: 3300px;
     width: 1400px;
+   
 }
 
 .full-width {
-    width: 1400px;
+    width: 1200px;
 }
 
 .half-width {
-    width: 700px;
+    width: 600px;
     float: left;
 }
 
 .third-width {
-    width: 466px;
+    width: 400px;
     float: left;
 }
 
@@ -47,18 +49,14 @@ header {
 
 header {
     background-image: url(../img/hero-background.png);
-    background-size: cover;
-    height: 800px;
     margin: 0 auto;
+    background-size: cover;
 }
 
 #top-section {
     background-color: black;
     color: white;
-    height: 50px;
-    width: 1400px;
-     
-
+    height: 50px;   
 }
 
 #top-section .full-width {
@@ -67,18 +65,19 @@ header {
 
 #top-section .half-width {
     width: 700px;
-    height: 50px;
+    
 }
  .half-width h1 {
-    font-family: 'montserrat regular', sans-serif;
-    font-size: 30pt;
-    margin: 0 auto;
+    font-family: 'Montserrat regular', sans-serif;
+    font-size: 20pt;
+    padding: 0px 0px 20px 50px;
+    margin-bottom: 10px;
 }
 
 .half-width nav {
     float: right;
-    margin: 0 auto;
-
+    
+    
     
 }
 
@@ -88,11 +87,12 @@ header {
 
 .half-width nav ul li a {
     color: #ffffff;
-    font-size: 30pt;
-    font-style: 'montserrat regular', sans-serif;
+    font-size: 18pt;
+    font-family: 'Source Code Pro Semibold', monospace;
     list-style-type: none;
-    margin: 0 auto;
+    margin: 0px 5px 15px 0px;
     padding-right: 45px;
+    text-align: center;
     text-decoration: none; 
 
 }
@@ -100,13 +100,16 @@ header {
 .half-width nav ul li a:hover {
     border-radius: 5px;
     color: #fa0075;
+
 }
 
 #bottom-section h2 {
     color: #ffffff;
-    font-family: 'source code pro semibold', monospace;
+    font-family: 'Source Code Pro Semibold', monospace;
     font-size: 72pt;
-    text-align: left;
+    padding-left: 70px;
+    padding-top: 150px;
+    
 }
 
 #bottom-section h2 span {
@@ -116,26 +119,26 @@ header {
 /*****WORK*****/
 
 #work {
-    background-color: #ffffff;
-    padding-top: 0px;
+    background-color: #1f202b;
+    margin: 0 auto;
 }
 
 #work .full-width {
-    clear: both;
-    height: 1450px;  
+    clear: both;  
     width: 1200px;
     }
 
-#work h2 {
-    color: #095156;
+#work h3 {
+    color: #fa0075;
     font-size: 36px;
-    font-family: 'roboto slab bold', sans-serif;
-    padding: 30px 0 30px 0;
+    font-family: 'Source Code Pro Semibold', monospace;
+    margin-top: 0;
+    padding: 40px 0 30px 0;
     text-align: center;    
 }
 
 #work .half-width {
-        background-color: white;
+        background-color: #1f202b;
         height: 400px;
         padding-bottom: 40px;
         width: 600px;
@@ -148,20 +151,137 @@ header {
 
 
 #work .half-width h3 {
-    color: #087e8b;
+    color: #ffffff;
     float: left;
-    font-family: 'roboto bold', sans-serif;
+    font-family: 'montserrat bold', sans-serif;
     font-size: 24px;
     margin-bottom: -15px;
-    padding: 22px 50px 0px 50px;
+    padding: 50px 0px 0px 100px;
     width: 500px;
+    text-align: left;
 }
 
 #work p {
-    color: #087e8b;
-    float: left;font-family: 'roboto regular', sans-serif;
+    color: #ffffff;
+    float: left;
+    font-family: 'montserrat regular', sans-serif;
     font-size: 20px;
-    padding: 0px 50px 50px 50px;
+    padding: 0px 50px 50px 100px;
     width: 500px;
     
   }
+/*****ABOUT*****/
+
+  #about {
+      background-image: url(../img/about-me.png);
+      margin: 0 auto;
+  }
+
+  #about .full-width {
+      width: 1200px;
+      height: 550px;
+  }
+
+  h4 {
+      color: #fa0075;
+      font-family: 'Source Code Pro Semibold', monospace;
+      font-size: 36px;
+      margin-top: 0px;
+      padding: 40px;
+      text-align: center;
+  }
+
+  h5 {
+        color: #1f202b;  
+        font-family: 'Montserrat bold', sans-serif;
+        font-size: 22px;
+        padding: 0px 600px 0px 100px;
+        text-align: left;
+  }
+
+  p {
+      color: #1f202b;
+      font-family: 'Montserrat Regular', sans-serif;
+      font-size: 22px;
+      padding: 0px 600px 20px 100px;
+      text-align: justify;
+  }
+
+  /*****CONTACT*****/
+
+  #contact {
+    background-color: #1f202b;
+    margin: 0 auto;
+    }
+
+#contact .full-width {
+    height: 400px;
+    margin: 0 auto;
+    width: 1200px;
+}
+
+.full-width h6 {
+    color: #fa0075;
+    font-family: 'Source Code Pro Semibold', monospace;
+    font-size: 36px;
+    margin: 0px 1px 0px 1px;
+    padding-top: 50px;
+    text-align: center;
+}
+
+.third-width  {
+    width: 400px;
+}
+
+.third-width h6 {
+    color: white;
+    font-family: 'Montserrat Bold', sans-serif;
+    font-size: 24px;
+    padding-bottom: 20px;
+}
+
+.third-width p {
+    color: white;
+    display: inline;
+    font-family: 'Montserrat Regular', sans-serif;
+    font-size: 20px; 
+    text-align: center;
+
+}
+
+.third-width a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.third-width a:hover {
+    border-radius: 5px;
+    color: #fa0075;
+}
+
+.third-width ul {
+    display: inline;
+    list-style: none;
+    padding: 5px 0px 0px 0px;
+    text-align: center;
+}
+
+
+.third-width ul li a {
+    
+    float: left;
+    padding: 30px 10px 10px 50px;
+   }
+
+
+/*****FOOTER*****/
+
+.footer p {
+    background-color: #1f202b;
+    color: #ffffff;
+    font-family: 'Montserrat Regular', sans-serif;
+    font-size: 18px;
+    margin: 0 auto;
+    padding-left: 590px;
+    text-align: center;   
+}
