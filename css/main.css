@@ -25,14 +25,9 @@ header {
 
 /*****CONTAINER*****/
 
-.container  {
-    height: 3300px;
-    width: 1400px;
-   
-}
-
 .full-width {
     width: 1200px;
+    margin: 0 auto;
 }
 
 .half-width {
@@ -76,9 +71,6 @@ header {
 
 .half-width nav {
     float: right;
-    
-    
-    
 }
 
 .half-width nav ul li{
@@ -195,7 +187,7 @@ header {
         color: #1f202b;  
         font-family: 'Montserrat bold', sans-serif;
         font-size: 22px;
-        padding: 0px 600px 0px 100px;
+        padding: 0px;
         text-align: left;
   }
 
@@ -203,8 +195,9 @@ header {
       color: #1f202b;
       font-family: 'Montserrat Regular', sans-serif;
       font-size: 22px;
-      padding: 0px 600px 20px 100px;
+      padding: 0px;
       text-align: justify;
+      width: 600px;
   }
 
   /*****CONTACT*****/
@@ -238,11 +231,11 @@ header {
     font-family: 'Montserrat Bold', sans-serif;
     font-size: 24px;
     padding-bottom: 20px;
+    text-align: center;
 }
 
 .third-width p {
     color: white;
-    display: inline;
     font-family: 'Montserrat Regular', sans-serif;
     font-size: 20px; 
     text-align: center;
@@ -282,6 +275,6 @@ header {
     font-family: 'Montserrat Regular', sans-serif;
     font-size: 18px;
     margin: 0 auto;
-    padding-left: 590px;
-    text-align: center;   
+    text-align: center;  
+    width: 1400px; 
 }
