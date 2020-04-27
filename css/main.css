@@ -55,18 +55,18 @@ header {
 }
 
 #top-section .full-width {
-    width: 1400px;
+    width: 1200px;
 }
 
 #top-section .half-width {
-    width: 700px;
+    width: 600px;
     
 }
  .half-width h1 {
     font-family: 'Montserrat regular', sans-serif;
     font-size: 20pt;
-    padding: 0px 0px 20px 50px;
-    margin-bottom: 10px;
+    padding: 0px 50px 20px 0px;
+    margin-bottom: 20px;
 }
 
 .half-width nav {
@@ -159,7 +159,7 @@ header {
     font-family: 'montserrat regular', sans-serif;
     font-size: 20px;
     padding: 0px 50px 50px 100px;
-    width: 500px;
+    
     
   }
 /*****ABOUT*****/
@@ -174,7 +174,8 @@ header {
       height: 550px;
   }
 
-  h4 {
+
+  .full-width h4 {
       color: #fa0075;
       font-family: 'Source Code Pro Semibold', monospace;
       font-size: 36px;
@@ -183,7 +184,7 @@ header {
       text-align: center;
   }
 
-  h5 {
+  .half-width h5 {
         color: #1f202b;  
         font-family: 'Montserrat bold', sans-serif;
         font-size: 22px;
@@ -191,13 +192,12 @@ header {
         text-align: left;
   }
 
-  p {
+  .half-width p {
       color: #1f202b;
       font-family: 'Montserrat Regular', sans-serif;
       font-size: 22px;
-      padding: 0px;
       text-align: justify;
-      width: 600px;
+     
   }
 
   /*****CONTACT*****/
@@ -276,5 +276,5 @@ header {
     font-size: 18px;
     margin: 0 auto;
     text-align: center;  
-    width: 1400px; 
+    
 }
