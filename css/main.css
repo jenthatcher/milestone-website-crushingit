@@ -50,12 +50,12 @@ header {
 
 #top-section {
     background-color: black;
-    color: white;
-    height: 50px;   
+    color: white;   
 }
 
 #top-section .full-width {
     width: 1200px;
+    overflow: auto;
 }
 
 #top-section .half-width {
@@ -65,7 +65,6 @@ header {
  .half-width h1 {
     font-family: 'Montserrat regular', sans-serif;
     font-size: 20pt;
-    padding: 0px 50px 20px 0px;
     margin-bottom: 20px;
 }
 
@@ -83,7 +82,7 @@ header {
     font-family: 'Source Code Pro Semibold', monospace;
     list-style-type: none;
     margin: 0px 5px 15px 0px;
-    padding-right: 45px;
+    padding-left: 45px;
     text-align: center;
     text-decoration: none; 
 
@@ -180,6 +179,7 @@ header {
       font-family: 'Source Code Pro Semibold', monospace;
       font-size: 36px;
       margin-top: 0px;
+      margin-bottom: 0px;
       padding: 40px;
       text-align: center;
   }
